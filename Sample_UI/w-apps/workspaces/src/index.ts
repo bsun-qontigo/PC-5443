@@ -58,9 +58,9 @@ export default class WealthWorkspace extends Vue.extend(Template) {
 	protected created(): void {
 
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		if(!(window as any).electronAPI) {
-			alert('must run in electron!');
-		}
+		// if(!(window as any).electronAPI) {
+		// 	alert('must run in electron!');
+		// }
 
 
 		// if (checkForgotPasswordFlow()) {

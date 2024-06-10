@@ -43,9 +43,9 @@ export default class DemoComponents extends Vue.extend(VueTemplate) {
 		this.getStrategies();
 
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		(window as any).electronAPI.onUploadResult((value: string) => {
-			this.uploadStatus = value;
-		});
+		// (window as any).electronAPI.onUploadResult((value: string) => {
+		// 	this.uploadStatus = value;
+		// });
 
 	}
 
