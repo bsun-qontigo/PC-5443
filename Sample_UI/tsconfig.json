@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+  },
+  "exclude": [
+    "**"
+  ],
+  "files": [],
+  "includes": [],
+  "references": [
+    {
+      "path": "./w-apps/tsconfig.json",
+    },
+    {
+      "path": "./w-bComponents/tsconfig.json",
+    },
+    {
+      "path": "./w-models/tsconfig.json"
+    },
+    {
+      "path": "./w-config/tsconfig.json"
+    },
+    {
+      "path": "./w-services/tsconfig.json"
+    },
+    {
+      "path": "./w-types/tsconfig.json"
+    },
+    {
+      "path": "./w-commons/tsconfig.json"
+    }
+  ]
+}

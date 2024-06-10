@@ -1,0 +1,23 @@
+export default {
+	WEALTH_LENS: 'Wealth Lens',
+	PROCESSING_STATUS_ERRORS: 'Processing Status Errors',
+	PROCESSING_STATUS: {
+		BATCH_NAME: 'Name',
+		STATUS: 'Status',
+		PERCENT_COMPLETED: 'Percent Completed (%)',
+		ANALYSIS_DATE: 'Analysis Date',
+		MARKET_DATA_TIMESTAMP: 'Market Data Timestamp',
+		START_TIME: 'Start Time',
+		LAST_UPDATED_TIME: 'Last Updated Time',
+		BATCH_JOB_ID: 'Batch Job ID',
+		STRATGEY_ID: 'Stratgey ID',
+		CREATED_BY: 'Created By',
+		ERROR: 'Error',
+		DATE: 'Date',
+		DESCRIPTION: 'Description',
+	},
+	NEW_ACCOUNTS: 'New Accounts',
+	CASH_RAISE: 'Cash Contributions',
+	CASH_DEFICIT: 'Cash Withdrawals',
+	COMPLIANCE: 'Compliance',
+};

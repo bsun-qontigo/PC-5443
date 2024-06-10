@@ -1,0 +1,19 @@
+{
+	"name": "@axioma-components/wealth-batch-results",
+	"description": "Axioma Batch Results Business Component for Wealth",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-task": "0.0.1",
+		"@axioma-api/wealth-user-application-state": "0.0.1",
+		"@axioma-api/wealth-workspace": "0.0.1",
+		"@axioma-components/wealth-drivers-panel": "0.0.1",
+		"@axioma-components/wealth-errors-panel": "0.0.1",
+		"@axioma/wealth-commons": "0.0.1",
+		"@axioma/wealth-models": "0.0.1",
+		"@axioma/wealth-services": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

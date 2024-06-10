@@ -1,0 +1,9 @@
+{
+	"name": "@axioma-components/wealth-space-view-selector",
+	"description": "Axioma Space And view Selector Business Component for Wealth",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {}
+}

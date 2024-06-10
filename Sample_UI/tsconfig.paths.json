@@ -1,0 +1,124 @@
+{
+	"extends": "./tsconfig.options.json",
+	"compilerOptions": {
+		"paths": {
+			"@axioma-api/wealth-drilldown": [
+				"./w-api-clients/src/drilldown/src/index.ts"
+			],
+			"@axioma-api/wealth-fs": [
+				"./w-api-clients/src/fs/src/index.ts"
+			],
+			"@axioma-api/wealth-task": [
+				"./w-api-clients/src/task/src/index.ts"
+			],
+			"@axioma-api/wealth-time-series": [
+				"./w-api-clients/src/timeSeries/src/index.ts"
+			],
+			"@axioma-api/wealth-user-application-state": [
+				"./w-api-clients/src/userApplicationState/src/index.ts"
+			],
+			"@axioma-api/wealth-user-settings": [
+				"./w-api-clients/src/userSettings/src/index.ts"
+			],
+			"@axioma-api/wealth-utils": [
+				"./w-api-clients/src/utils/src/index.ts"
+			],
+			"@axioma-api/wealth-workspace": [
+				"./w-api-clients/src/workspace/src/index.ts"
+			],
+			"@axioma-apps/portfolio-tab": [
+				"./w-apps/portfolio-tab/src/index.ts"
+			],
+			"@axioma-apps/w-workspaces": [
+				"./w-apps/workspaces/src/index.ts"
+			],
+			"@axioma-apps/wealth": [
+				"./w-apps/wealth/src/index.ts"
+			],
+			"@axioma-apps/wealth-processing-status": [
+				"./w-apps/processing-status/src/index.ts"
+			],
+			"@axioma-components/gauge-chart": [
+				"./w-bComponents/gauge-chart/src/index.ts"
+			],
+			"@axioma-components/header": [
+				"./w-bComponents/header/src/index.ts"
+			],
+			"@axioma-components/portfolio-table": [
+				"./w-bComponents/portfolio-table/src/index.ts"
+			],
+			"@axioma-components/report-bug-modal": [
+				"./w-bComponents/reportBugModal/src/index.ts"
+			],
+			"@axioma-components/sector-allocation-chart": [
+				"./w-bComponents/sector-allocation-chart/src/index.ts"
+			],
+			"@axioma-components/user-menu-settings": [
+				"./w-bComponents/userMenuSettings/src/index.ts"
+			],
+			"@axioma-components/user-menu-settings-panel": [
+				"./w-bComponents/userMenuSettingsPanel/src/index.ts"
+			],
+			"@axioma-components/wealth-batch-results": [
+				"./w-bComponents/batch-results/src/index.ts"
+			],
+			"@axioma-components/wealth-dashboard": [
+				"./w-bComponents/dashboard/src/index.ts"
+			],
+			"@axioma-components/wealth-downloads-panel": [
+				"./w-bComponents/downloads-panel/src/index.ts"
+			],
+			"@axioma-components/wealth-drivers-panel": [
+				"./w-bComponents/drivers-panel/src/index.ts"
+			],
+			"@axioma-components/wealth-errors-panel": [
+				"./w-bComponents/errors-panel/src/index.ts"
+			],
+			"@axioma-components/wealth-histogram-chart-wrapper": [
+				"./w-bComponents/histogram-chart-wrapper/src/index.ts"
+			],
+			"@axioma-components/wealth-portfolio-tab": [
+				"./w-bComponents/portfolio-tab/src/index.ts"
+			],
+			"@axioma-components/wealth-portfolio-time-series-widget": [
+				"./w-bComponents/portfolio-time-series-widget/src/index.ts"
+			],
+			"@axioma-components/wealth-processing-status": [
+				"./w-bComponents/processing-status/src/index.ts"
+			],
+			"@axioma-components/wealth-scatter-chart-wrapper": [
+				"./w-bComponents/scatter-chart-wrapper/src/index.ts"
+			],
+			"@axioma-components/wealth-space-view-selector": [
+				"./w-bComponents/space-view-selector/src/index.ts"
+			],
+			"@axioma-components/wealth-time-series-chart": [
+				"./w-bComponents/time-series-chart/src/index.ts"
+			],
+			"@axioma-components/wealth-top-10-holdings": [
+				"./w-bComponents/top-10-holdings/src/index.ts"
+			],
+			"@axioma/wealth-commons": [
+				"./w-commons/src/index.ts"
+			],
+			"@axioma/wealth-config": [
+				"./w-config/src/index.ts"
+			],
+			"@axioma/wealth-models": [
+				"./w-models/src/index.ts"
+			],
+			"@axioma/wealth-services": [
+				"./w-services/src/index.ts"
+			],
+			"@axioma/wealth-types": [
+				"./w-types/src/index.ts"
+			],
+			"material-components-web": [
+				"./node_modules/axioma-workbench/ax-vendors/entries/material-components-web/index.d.ts"
+			],
+			"@axioma-components/wealth-demo-components": [
+				"./w-bComponents/demo-components/src/index.ts"
+			],
+		}
+	}
+}

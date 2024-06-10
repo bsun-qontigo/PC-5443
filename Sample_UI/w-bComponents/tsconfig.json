@@ -1,0 +1,64 @@
+{
+	"compilerOptions": {
+		"noEmit": true
+	},
+	"references": [
+		{
+			"path": "./batch-results"
+		},
+		{
+			"path": "./gauge-chart"
+		},
+		{
+			"path": "./header"
+		},
+		{
+			"path": "./reportBugModal"
+		},
+		{
+			"path": "./userMenuSettings"
+		},
+		{
+			"path": "./userMenuSettingsPanel"
+		},
+		{
+			"path": "./processing-status"
+		},
+		{
+			"path": "./dashboard"
+		},
+		{
+			"path": "./errors-panel"
+		},
+		{
+			"path": "./drivers-panel"
+		},
+		{
+			"path": "./portfolio-tab"
+		},
+		{
+			"path": "./top-10-holdings"
+		},
+		{
+			"path": "./downloads-panel"
+		},
+		{
+			"path": "./space-view-selector"
+		},
+		{
+			"path": "./portfolio-time-series-widget"
+		},
+		{
+			"path:": "./time-series-chart"
+		},
+		{
+			"path": "./scatter-chart-wrapper"
+		},
+		{
+			"path": "./histogram-chart-wrapper"
+		},
+		{
+			"path": "./demo-components"
+		}
+	]
+}

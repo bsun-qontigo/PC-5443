@@ -1,0 +1,12 @@
+{
+	"name": "@axioma-api/wealth-user-settings",
+	"description": "Axioma user settings controller api client",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma/wealth-config": "0.0.1",
+		"@axioma/wealth-services": "0.0.1"
+	}
+}

@@ -1,0 +1,28 @@
+step "fetch-and-update-the-params" {
+    name = "Fetch and Update the Params"
+
+    action {
+        action_type = "Octopus.Script"
+        properties = {
+            Octopus.Action.Script.ScriptBody = <<-EOT
+                $version = $OctopusParameters["version"]
+                $container = $OctopusParameters["container"]
+                $runtime = $OctopusParameters["runtime"]
+                
+                Write-Host "version is: $version"
+                Write-Host "container is: $container"
+                Write-Host "runtime is: $runtime"
+                
+                Write-Host "Updating the params..."
+                Set-OctopusVariable -environment $OctopusParameters["Octopus.Environment.Name"] -varName "OWS.UI.Host.Version" -varValue $version
+                Set-OctopusVariable -environment $OctopusParameters["Octopus.Environment.Name"] -varName "OWS.UI.Host.Container" -varValue $container
+                Set-OctopusVariable -environment $OctopusParameters["Octopus.Environment.Name"] -varName "OWS.UI.Host.Runtime" -varValue $runtime
+                Write-Host "Params have been updated."
+                
+                EOT
+            Octopus.Action.Script.ScriptSource = "Inline"
+            Octopus.Action.Script.Syntax = "PowerShell"
+        }
+        worker_pool = "cloud-production-pool"
+    }
+}

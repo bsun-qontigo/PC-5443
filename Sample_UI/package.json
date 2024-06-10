@@ -1,0 +1,40 @@
+{
+	"name": "wealth-repo",
+	"version": "24.4",
+	"main": "index.js",
+	"author": "Scott Swan <sswan@qontigo.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"preinstall": "git submodule init && git submodule update",
+		"start": "gallery start",
+		"build": "yarn && gallery clean:dist && gallery build -p",
+		"deploy-branch": "gallery deploy-branch",
+		"storage-upload": "node ./w-bin/azure/dist/azure-deploy.js",
+		"clean": "gallery clean",
+		"clean:dist": "gallery clean:dist",
+		"lint": "gallery lint",
+		"custom-b2c": "node ./azure-page-customization/publish.js",
+		"generate:models": "node ./w-bin/generate-models/buildModels.js"
+	},
+	"dependencies": {
+		"@fullstory/browser": "1.7.1",
+		"@typescript-eslint/eslint-plugin": "5.59.1",
+		"@typescript-eslint/parser": "5.59.1",
+		"axioma-workbench": "file:./axiomaWorkbench",
+		"dedent-js": "^1.0.1",
+		"eslint": "8.39.0"
+	},
+	"workspaces": [
+		"w-models",
+		"w-bComponents/*",
+		"w-apps/*",
+		"w-bin",
+		"w-config",
+		"w-services",
+		"w-api-clients/src/*",
+		"w-types",
+		"w-commons"
+	],
+	"description": "Wealth project"
+}

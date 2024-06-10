@@ -1,0 +1,14 @@
+{
+	"name": "@axioma-components/wealth-portfolio-time-series-widget",
+	"description": "axioma portfolio time series widget",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-time-series": "0.0.1",
+		"@axioma-components/wealth-time-series-chart": "0.0.1",
+		"@axioma/wealth-commons": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

@@ -1,0 +1,692 @@
+* {
+    outline: none;
+}
+
+html {
+    overflow: auto !important;
+}
+
+body {
+    margin: 0;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-inline-flex {
+    display: inline-flex;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.qontum-container-direction-column {
+    flex-direction: column;
+}
+
+.marg-bottom-xs {
+    margin-bottom: 8px !important;
+}
+
+.qontum-container-direction-column .qontum-container-label-input {
+    margin-bottom: 8px;
+}
+
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-main-container {
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-height: 0px;
+    min-width: 0px;
+}
+
+.all-vh {
+    height: 100vh !important;
+}
+
+.itemLevel .all-height {
+    height: 100% !important;
+}
+
+.all-width {
+    width: 100% !important;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.logo-container {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    overflow: hidden;
+}
+
+.logo {
+    position: relative;
+    z-index: -1;
+    height: 100%;
+}
+
+.marg-auto {
+    margin: auto !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.h1 {
+    font-size: 24px !important;
+    line-height: normal;
+    font-weight: 300 !important;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.half-width {
+    width: 50% !important;
+}
+
+.padd-lr-xxl {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+}
+
+.container-form {
+    width: 400px;
+}
+
+.qontum-text-field-content {
+    padding-left: 4px;
+}
+
+.qontum-container-direction-column {
+    flex-direction: column;
+}
+
+.qontum-text-field-container {
+    display: flex;
+    width: 100%;
+}
+
+.qontum.link-like {
+    color: var(--color-non-tokens-brand-40, #0374BA);
+}
+
+.intro {
+    display: none;
+}
+
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    background: var(--button-background);
+    color: var(--button-color);
+    padding: 8px;
+    border-radius: 4px;
+    border: transparent 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: none;
+    gap: 4px;
+}
+
+#forgotPassword {
+    top: 64px;
+    right: 0;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px !important;
+    line-height: normal;
+    font-weight: 400 !important;
+    margin-bottom: 24px !important;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--link-login);
+}
+
+button#next {
+    margin-top: 32px;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.helpLink {
+    display: none;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 4px;
+}
+
+input:hover {
+    border-color: #0E0E0E !important;
+}
+
+input:focus-within {
+    border-color: #0372B9 !important;
+}
+
+.error[role="alert"] {
+    font-size: 14px;
+    color: #D30707;
+    order: 1;
+    margin-bottom: 24px;
+}
+
+.email_li.email .attrEntry {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1[role="heading"] {
+    display: none;
+}
+
+.entry .entry-item:first-child {
+    margin-bottom: 24px !important;
+}
+
+.entry-item .itemLevel {
+    display: none !important;
+}
+
+
+.entry .entry-item {
+    position: relative;
+    max-width: 584px;
+}
+
+.qontum-form-container {
+    display: flex;
+    width: 100%;
+}
+
+
+label[for="email"],
+label[for="emailAddress"],
+label[for="password"],
+label[for="newPassword"],
+label[for="reenterPassword"],
+label[for="verificationCode"] {
+    display: none;
+}
+
+/*****************************/
+
+.qontum-sso-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.qontum-sso-container .qontum-column-container .section-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.qontum-sso-container .qontum-column-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.qontum-sso-container .qontum-logo-axioma {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+
+.qontum-sso-container .qontum-logo-axioma .logo {
+    width: 80%;
+}
+
+.qontum-login-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--title-login);
+}
+
+.qontum-login-subtitle,
+#emailVerificationControl_success_message,
+#emailVerificationCode_label,
+#emailAddress_label,
+#verificationCode_label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--title-login);
+}
+
+#emailVerificationCode_label {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.verificationSuccessText {
+    margin-bottom: 8px;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.qontum-form-label-span {
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--qontum-textfield-default-label);
+    width: max-content;
+}
+
+.qontum-form-label-span-required, #emailVerificationControl_error_message {
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--qontum-textfield-text-error);
+    margin-left: 4px;
+}
+
+.qontum-container-body-form {
+    width: 100%;
+}
+
+.qontum-input {
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    padding-left: calc(4px + 4px);
+    padding-right: calc(4px + 4px);
+    background: var(--qontum-textfield-default-background);
+    border: 1px solid var(--qontum-textfield-default-border);
+}
+
+.qontum-input:hover:not(.disabled) {
+    background: var(--qontum-textfield-hover-background);
+}
+
+.qontum-input.readonly {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.qontum-input.active {
+    border: 1px solid var(--qontum-textfield-active);
+}
+
+.qontum-input.success {
+    border: 1px solid var(--qontum-textfield-success);
+}
+
+.qontum-input.danger {
+    border: 1px solid var(--qontum-textfield-error);
+}
+
+.qontum-input.disabled {
+    border: none;
+}
+
+.qontum-input-field-content {
+    background: transparent;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: Regular;
+    font-style: normal;
+    color: var(--qontum-textfield-default-text);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.qontum-input-field-content::-webkit-outer-spin-button,
+.qontum-input-field-content::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.qontum-input-field-content[type=number] {
+    -moz-appearance: textfield;
+}
+
+.qontum-input-field-content[disabled] {
+    pointer-events: auto;
+}
+
+.qontum-input-field-content::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--qontum-textfield-default-placeholder) !important;
+}
+
+.qontum-form-icon {
+    display: flex;
+    justify-content: center;
+    width: calc(8px + 4px*2);
+}
+
+.qontum-input-icon-leading {
+    display: flex;
+    align-items: center;
+    left: 0;
+}
+
+.qontum-icon-i-helper {
+    font-size: 10px;
+    padding-right: 4px;
+}
+
+.qontum-icon-i-helper.danger {
+    color: var(--qontum-textfield-text-error);
+}
+
+.qontum-icon-i-helper.success {
+    color: var(--qontum-textfield-text-success);
+}
+
+.qontum-helper-text {
+    color: var(--qontum-textfield-default-text);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 4px 0 4px 0;
+}
+
+.qontum-helper-text.danger {
+    color: var(--qontum-textfield-text-error);
+}
+
+.qontum-helper-text.success {
+    color: var(--qontum-textfield-text-success);
+}
+
+.qontum-helper-text.optional {
+    color: var(--qontum-textfield-text-optional);
+}
+
+.light.size-m .marg-bottom-s {
+    margin-bottom: 16px !important;
+}
+
+.light.size-m .marg-bottom-m {
+    margin-bottom: 24px !important;
+}
+
+.light {
+    --title-login: hsl(203, 10%, 8%);
+    --link-login: hsl(203, 97%, 37%);
+}
+
+button.qontum-button-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--button-icon-background);
+    color: var(--button-icon-color);
+    height: var(--button-icon-size);
+    width: var(--button-icon-size);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.qontum-button-icon .qontum-icon {
+    font-size: var(--button-icon-font-size);
+}
+
+.button.qontum-button-icon {
+    --button-icon-background: transparent;
+    --button-icon-color: hsl(203, 10%, 35%);
+}
+
+.button.qontum-button-icon.primary {
+    --button-icon-background: transparent;
+    --button-icon-color: hsl(203, 97%, 37%);
+}
+
+.button.qontum-button-icon:hover,
+.button.qontum-button-icon.hover {
+    --button-icon-background: hsl(203, 60%, 95%);
+}
+
+.button.qontum-button-icon:active,
+.button.qontum-button-icon.active {
+    --button-icon-background: hsl(203, 19%, 89%);
+    --button-icon-color: hsl(203, 15%, 84%);
+}
+
+.button.qontum-button-icon:disabled {
+    --button-icon-background: transparent;
+    --button-icon-color: hsl(203, 15%, 84%);
+}
+
+.fa-eye {
+    font-family: "FontAwesome", sans-serif;
+    font-weight: var(--font-weight-light);
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    /* font-size: var(--icon-font-size);
+font-size: var(--button-icon-font-size); */
+}
+
+.fa-xmark {
+    font-family: "FontAwesome",  sans-serif;
+    font-weight: var(--font-weight-light);
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    /* font-size: var(--icon-font-size);
+font-size: var(--button-icon-font-size); */
+}
+
+.fa-eye::before {
+    content: "\f06e";
+}
+
+.light {
+    --qontum-textfield-default-border: hsl(203, 19%, 89%);
+    --qontum-textfield-default-background: hsl(203, 10%, 97%);
+    --qontum-textfield-default-label: hsl(203, 10%, 35%);
+    --qontum-textfield-default-placeholder: hsl(203, 10%, 51%);
+    --qontum-textfield-default-text: hsl(203, 10%, 8%);
+    --qontum-textfield-hover-background: hsl(203, 60%, 95%);
+    --qontum-textfield-text-error: hsl(2, 87%, 57%);
+    --qontum-textfield-text-success: hsl(108, 42%, 50%);
+    --qontum-textfield-text-optional: hsl(203, 10%, 51%);
+    --qontum-textfield-active: hsl(203, 97%, 37%);
+    --qontum-textfield-error: hsl(2, 87%, 57%);
+    --qontum-textfield-success: hsl(108, 42%, 50%);
+    --qontum-textfield-icon-color: hsl(203, 10%, 8%);
+}
+
+.light button.qontum.primary {
+    --button-background: hsl(203, 97%, 37%);
+    --button-color: hsl(203, 10%, 97%);
+}
+
+.light button.qontum.primary:hover {
+    --button-background: hsl(203, 60%, 48%);
+}
+
+.light button.qontum.primary:active {
+    --button-background: hsl(203, 97%, 27%);
+}
+
+.light button.qontum.primary:disabled {
+    --button-background: hsla(203, 10%, 51%, 0.07);
+    --button-color: hsl(203, 15%, 84%);
+}
+
+.light button.qontum.secondary {
+    --button-background: transparent;
+    --button-color: hsl(203, 10%, 20%);
+    border: hsl(203, 10%, 20%) 1px solid;
+}
+
+.light button.qontum.secondary:hover {
+    --button-background: hsl(203, 60%, 95%);
+}
+
+.light button.qontum.secondary:active {
+    --button-background: hsl(203, 19%, 89%);
+}
+
+.light button.qontum.secondary:disabled {
+    --button-background: hsla(203, 10%, 51%, 0.07);
+    --button-color: hsl(203, 15%, 84%);
+    border: none;
+}
+
+.light button.qontum.tertiary {
+    --button-background: transparent;
+    --button-color: hsl(203, 10%, 20%);
+}
+
+.light button.qontum.tertiary:hover {
+    --button-background: hsl(203, 20%, 92%);
+}
+
+.light button.qontum.tertiary:active {
+    --button-background: hsl(203, 19%, 89%);
+}
+
+.light button.qontum.tertiary:disabled {
+    --button-background: hsla(203, 10%, 51%, 0.07);
+    --button-color: hsl(203, 15%, 84%);
+}
+
+
+:root {
+    --font-family: Open Sans, sans-serif;
+    --font-style-normal: normal;
+    --font-size-xxs: 10px;
+    --font-size-xs: 12px;
+    --font-size-s: 13px;
+    --font-size-m: 14px;
+    --font-size-l: 16px;
+    --font-size-xl: 20px;
+    --font-size-xxl: 24px;
+    --font-size-xxxl: 48px;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+}
+
+.light button.qontum-button-icon {
+    --button-icon-background: transparent;
+    --button-icon-color: hsl(203, 10%, 35%);
+}
+
+button.qontum-icon {
+    --button-icon-font-size: 12px;
+}
+
+button.qontum-button-icon.size-sm {
+    --button-icon-size: 20px;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+#emailVerificationControl_but_change_claims {
+    display: none !important;
+}
+
+.qontum-banner-content-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: calc(100% - var(--close-icon-width));
+}
+
+.qontum-login-subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: var(--title-login);
+}
+
+.qontum-login-new-password-li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: var(--title-login);
+}
+
+.qontum-login-new-password-li::before {
+	content: "•";
+	margin-right: 6px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+#simplemodal-container .simplemodal-data{
+    color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}

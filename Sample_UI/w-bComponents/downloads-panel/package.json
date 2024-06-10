@@ -1,0 +1,12 @@
+{
+	"name": "@axioma-components/wealth-downloads-panel",
+	"description": "Axioma Downloads Panel Business Component for Wealth",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-workspace": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

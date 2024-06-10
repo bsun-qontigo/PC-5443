@@ -1,0 +1,26 @@
+variable "runtime" {
+    value {
+        prompt {
+            description = ""
+            label = ""
+        }
+    }
+}
+
+variable "container" {
+    value {
+        prompt {
+            description = ""
+            label = ""
+        }
+    }
+}
+
+variable "version" {
+    value {
+        prompt {
+            description = ""
+            label = ""
+        }
+    }
+}

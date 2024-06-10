@@ -1,0 +1,29 @@
+{
+	"extends": "../../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "../../node_modules/.cache/@axioma-components/sector-allocation-chart",
+		"tsBuildInfoFile": "../../node_modules/.cache/@axioma-components/sector-allocation-chart/build.info"
+	},
+	"include": [
+		"src/**/*.ts",
+		"./assets/*.ts"
+	],
+	"references": [
+		{
+			"path": "./../../w-api-clients/src/userApplicationState/tsconfig.json"
+		},
+		{
+			"path": "./../../w-commons/tsconfig.json"
+		},
+		{
+			"path": "./../../w-models/tsconfig.json"
+		},
+		{
+			"path": "./../../w-types/tsconfig.json"
+		},
+		{
+			"path": "./../space-view-selector/tsconfig.json"
+		}
+	]
+}

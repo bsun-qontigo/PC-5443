@@ -1,0 +1,19 @@
+{
+	"extends": "../../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "../../node_modules/.cache/@axioma-components/wealth-downloads-panel",
+		"tsBuildInfoFile": "../../node_modules/.cache/@axioma-components/wealth-downloads-panel/build.info"
+	},
+	"include": [
+		"./src/**/*.ts"
+	],
+	"references": [
+		{
+			"path": "./../../w-api-clients/src/workspace/tsconfig.json"
+		},
+		{
+			"path": "./../../w-types/tsconfig.json"
+		}
+	]
+}

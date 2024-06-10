@@ -1,0 +1,9 @@
+{
+	"name": "@axioma-components/wealth-errors-panel",
+	"description": "Axioma Errors Panel Business Component for Wealth",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "@axioma/wealth-services",
+	"version": "0.0.1",
+	"description": "Services for AxiomaInc",
+	"author": "Axioma Inc",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-fs": "0.0.1",
+		"@axioma-api/wealth-utils": "0.0.1",
+		"@axioma/wealth-config": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

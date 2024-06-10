@@ -1,0 +1,12 @@
+{
+	"name": "@axioma-components/user-menu-settings",
+	"description": "Wealth user menu settings",
+	"author": "Axioma Inc",
+	"version": "0.8.0",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma/wealth-services": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

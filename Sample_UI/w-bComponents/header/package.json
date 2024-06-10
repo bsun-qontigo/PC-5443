@@ -1,0 +1,16 @@
+{
+	"name": "@axioma-components/header",
+	"description": "Wealth control header",
+	"author": "Axioma Inc",
+	"version": "0.8.0",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-task": "0.0.1",
+		"@axioma-components/report-bug-modal": "0.8.0",
+		"@axioma-components/user-menu-settings": "0.8.0",
+		"@axioma-components/user-menu-settings-panel": "0.8.0",
+		"@axioma/wealth-services": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

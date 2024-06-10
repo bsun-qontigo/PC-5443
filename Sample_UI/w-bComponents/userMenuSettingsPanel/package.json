@@ -1,0 +1,14 @@
+{
+	"name": "@axioma-components/user-menu-settings-panel",
+	"description": "axioma wealth user settings panel",
+	"author": "Axioma Inc",
+	"version": "0.8.0",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-user-application-state": "0.0.1",
+		"@axioma-api/wealth-utils": "0.0.1",
+		"@axioma/wealth-services": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

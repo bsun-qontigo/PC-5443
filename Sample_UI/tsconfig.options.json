@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"noEmit": false,
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"target": "es2020",
+		"moduleResolution": "node",
+		"declaration": true,
+		"composite": true,
+		"incremental": true,
+		"importHelpers": true,
+		"noImplicitAny": true,
+		"preserveConstEnums": false,
+		"removeComments": false,
+		"declarationMap": true,
+		"sourceMap": true,
+		"strict": true,
+		"resolveJsonModule": true,
+		"noEmitOnError": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"types": [
+			"global-types",
+			"jest",
+			"node"
+		],
+		"baseUrl": "./",
+	},
+	"vueCompilerOptions": {
+		"plugins": [
+			"@volar/vue-language-plugin-pug"
+		]
+	},
+	"includes": [
+		"./ax-types/index.d.ts"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "@axioma-components/gauge-chart",
+	"description": "axioma a gauge chart in d3",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma/wealth-commons": "0.0.1"
+	}
+}

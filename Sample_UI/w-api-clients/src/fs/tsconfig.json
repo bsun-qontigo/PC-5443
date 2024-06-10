@@ -1,0 +1,12 @@
+{
+	"extends": "../../../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "../../../node_modules/.cache/@axioma-api/wealth-fs",
+		"tsBuildInfoFile": "../../../node_modules/.cache/@axioma-api/wealth-fs/build.info"
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"references": []
+}

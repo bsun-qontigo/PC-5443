@@ -1,0 +1,14 @@
+{
+	"extends": "../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./",
+		"outDir": "./../node_modules/.cache/ts/lib/wealth-config",
+		"tsBuildInfoFile": "./../node_modules/.cache/ts/lib/wealth-config/tsbuild.info"
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"typeAcquisition": {
+		"enable": true
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "@axioma-components/wealth-portfolio-tab",
+	"description": "Axioma Portfolio Tab Business Component for Wealth",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-components/portfolio-table": "0.0.1",
+		"@axioma-components/sector-allocation-chart": "0.8.0",
+		"@axioma-components/wealth-drivers-panel": "0.0.1",
+		"@axioma-components/wealth-portfolio-time-series-widget": "0.0.1",
+		"@axioma-components/wealth-top-10-holdings": "0.0.1",
+		"@axioma/wealth-services": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

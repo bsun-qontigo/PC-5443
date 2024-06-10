@@ -1,0 +1,12 @@
+{
+	"name": "@axioma/wealth-types",
+	"version": "0.0.1",
+	"description": "Types for AxiomaInc",
+	"author": "Axioma Inc",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-utils": "0.0.1",
+		"@axioma/wealth-models": "0.0.1"
+	}
+}

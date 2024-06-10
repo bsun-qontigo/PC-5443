@@ -1,0 +1,34 @@
+{
+	"extends": "../../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "../../node_modules/.cache/@axioma-apps/w-workspaces",
+		"tsBuildInfoFile": "../../node_modules/.cache/@axioma-apps/w-workspaces/build.info"
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"references": [
+		{
+			"path": "./../../w-api-clients/src/userApplicationState/tsconfig.json"
+		},
+		{
+			"path": "./../../w-api-clients/src/userSettings/tsconfig.json"
+		},
+		{
+			"path": "./../../w-bComponents/header/tsconfig.json"
+		},
+		{
+			"path": "./../../w-bComponents/portfolio-tab/tsconfig.json"
+		},
+		{
+			"path": "./../../w-services/tsconfig.json"
+		},
+		{
+			"path": "./../../w-types/tsconfig.json"
+		},
+		{
+			"path": "./../../w-bComponents/demo-components/tsconfig.json"
+		},
+	]
+}

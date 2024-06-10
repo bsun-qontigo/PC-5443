@@ -1,0 +1,13 @@
+{
+	"name": "@axioma-components/wealth-time-series-chart",
+	"description": "axioma time series chart",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma/wealth-commons": "0.0.1",
+		"@axioma/wealth-services": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

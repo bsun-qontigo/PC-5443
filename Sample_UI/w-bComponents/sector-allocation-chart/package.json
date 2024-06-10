@@ -1,0 +1,15 @@
+{
+	"name": "@axioma-components/sector-allocation-chart",
+	"description": "axioma sector allocation chart",
+	"author": "Axioma Inc",
+	"version": "0.8.0",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-user-application-state": "0.0.1",
+		"@axioma-components/wealth-space-view-selector": "0.0.1",
+		"@axioma/wealth-commons": "0.0.1",
+		"@axioma/wealth-models": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

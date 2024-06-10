@@ -1,0 +1,27 @@
+# terraform-docs config file to be used by all CI builds or manual runs of terraform-docs
+# This file is maintained in the Qontigo/core-coding-standards repo and that copy will overwrite any changes made in any repo using the file
+
+content: |-
+
+  <br/>
+
+  # Module Details
+  {{ .Header }}
+  {{ .Footer }}
+  {{ .Inputs }}
+  {{ .Modules }}
+  {{ .Outputs }}
+  {{ .Providers }}
+  {{ .Requirements }}
+  {{ .Resources }}
+
+formatter: "markdown"
+
+output:
+  file: "README.md"
+
+settings:
+  description: true
+  hide-empty: true
+  lockfile: false
+  read-comments: true

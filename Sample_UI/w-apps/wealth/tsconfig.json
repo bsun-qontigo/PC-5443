@@ -1,0 +1,37 @@
+{
+	"extends": "../../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "../../node_modules/.cache/@axioma-apps/wealth",
+		"tsBuildInfoFile": "../../node_modules/.cache/@axioma-apps/wealth/build.info"
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"references": [
+		{
+			"path": "./../../w-api-clients/src/task/tsconfig.json"
+		},
+		{
+			"path": "./../../w-api-clients/src/userApplicationState/tsconfig.json"
+		},
+		{
+			"path": "./../../w-api-clients/src/utils/tsconfig.json"
+		},
+		{
+			"path": "./../../w-bComponents/batch-results/tsconfig.json"
+		},
+		{
+			"path": "./../../w-bComponents/dashboard/tsconfig.json"
+		},
+		{
+			"path": "./../../w-bComponents/downloads-panel/tsconfig.json"
+		},
+		{
+			"path": "./../../w-services/tsconfig.json"
+		},
+		{
+			"path": "./../../w-types/tsconfig.json"
+		}
+	]
+}

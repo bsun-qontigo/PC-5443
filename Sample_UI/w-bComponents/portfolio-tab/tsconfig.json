@@ -1,0 +1,34 @@
+{
+	"extends": "../../tsconfig.paths.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "../../node_modules/.cache/@axioma-components/wealth-portfolio-tab",
+		"tsBuildInfoFile": "../../node_modules/.cache/@axioma-components/wealth-portfolio-tab/build.info"
+	},
+	"include": [
+		"./src/**/*.ts"
+	],
+	"references": [
+		{
+			"path": "./../../w-services/tsconfig.json"
+		},
+		{
+			"path": "./../../w-types/tsconfig.json"
+		},
+		{
+			"path": "./../drivers-panel/tsconfig.json"
+		},
+		{
+			"path": "./../portfolio-table/tsconfig.json"
+		},
+		{
+			"path": "./../portfolio-time-series-widget/tsconfig.json"
+		},
+		{
+			"path": "./../sector-allocation-chart/tsconfig.json"
+		},
+		{
+			"path": "./../top-10-holdings/tsconfig.json"
+		}
+	]
+}

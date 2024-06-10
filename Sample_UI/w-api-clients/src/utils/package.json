@@ -1,0 +1,9 @@
+{
+	"name": "@axioma-api/wealth-utils",
+	"description": "Axioma wealth api utils",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {}
+}

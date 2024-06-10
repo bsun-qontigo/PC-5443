@@ -1,0 +1,12 @@
+{
+    "$schema": "./node_modules/axioma-workbench/gallery.schema.json",
+    "use": {
+        "ts": "./node_modules/axioma-workbench/tsconfig.json",
+        "pk": "./node_modules/axioma-workbench/package.json"
+    },
+    "entries": [
+        "./w-apps/*"
+    ],
+    "mainEntry": "@axioma-apps/w-workspaces",
+    "vendors": []
+}

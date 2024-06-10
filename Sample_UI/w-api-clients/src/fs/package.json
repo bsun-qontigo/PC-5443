@@ -1,0 +1,9 @@
+{
+	"name": "@axioma-api/wealth-fs",
+	"description": "Axioma Wealth api client fullstory project",
+	"author": "Axioma Inc",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {},
+	"gallery": "./src/index.ts"
+}

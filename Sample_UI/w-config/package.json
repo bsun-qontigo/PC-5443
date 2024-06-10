@@ -1,0 +1,9 @@
+{
+	"name": "@axioma/wealth-config",
+	"version": "0.0.1",
+	"description": "Config for AxiomaInc",
+	"author": "Axioma Inc",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {}
+}

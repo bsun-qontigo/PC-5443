@@ -1,0 +1,14 @@
+{
+	"name": "@axioma-apps/portfolio-tab",
+	"description": "axioma portfolio tab project",
+	"author": "Axioma Inc",
+	"version": "0.8.0",
+	"private": true,
+	"gallery": "./src/index.ts",
+	"dependencies": {
+		"@axioma-api/wealth-drilldown": "0.0.1",
+		"@axioma-api/wealth-task": "0.0.1",
+		"@axioma-components/wealth-portfolio-tab": "0.0.1",
+		"@axioma/wealth-types": "0.0.1"
+	}
+}

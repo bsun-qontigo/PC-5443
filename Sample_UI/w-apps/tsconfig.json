@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"noEmit": true
+	},
+	"references": [
+		{
+			"path": "./portfolio-tab/tsconfig.json"
+		},
+		{
+			"path": "./wealth/tsconfig.json"
+		},
+		{
+			"path": "./workspaces/tsconfig.json"
+		},
+		{
+			"path": "./processing-status/tsconfig.json"
+		}
+	]
+}
