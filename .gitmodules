@@ -1,6 +1,3 @@
-[submodule "Sample_UI"]
-	path = Sample_UI
-	url = https://github.com/Qontigo/axiomaWorkbench.git
 [submodule "Sample_UI/axiomaWorkbench"]
 	path = Sample_UI/axiomaWorkbench
 	url = https://github.com/Qontigo/axiomaWorkbench.git
